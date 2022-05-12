@@ -1,0 +1,12 @@
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  @font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(../css/KellySlab-Regular.ttf) format('woff');
+    font-size:30px;
+  }
+
