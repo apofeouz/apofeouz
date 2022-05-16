@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
+
 const Head = () => {
 	return (
 		<><Helmet>
@@ -8,6 +9,7 @@ const Head = () => {
 			<title>Главная Apofeouz</title>
 			<meta name="description" content="apofeouz сайт посвящён для музыкального проекта" />
 		</Helmet>
+	
 			<section className="section" id="head">
 				<div className="container">
 					<div className="row">

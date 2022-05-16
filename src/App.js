@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Menu from './components/Menu'
+import { YMInitializer } from 'react-yandex-metrika';
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
   
     <div>
       <Menu />
+      <YMInitializer accounts={[26382525]} options={{ webvisor: true }} version="2" />
     </div>
   
   );
